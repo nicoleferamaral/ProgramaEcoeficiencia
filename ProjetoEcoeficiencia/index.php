@@ -119,7 +119,7 @@ if (isset($_GET['data_busca']) || isset($_GET['categoria_busca'])) {
             <a href="logout.php" class="btn btn-danger">Sair</a>
         </header>
         <br><br>
-        <!-- Adicione este código após o header e antes do card de "Novo Registro" -->
+  
 <div class="card mb-4">
     <div class="card-body">
         <h5 class="card-title">Consulta Individual</h5>
@@ -135,7 +135,23 @@ if (isset($_GET['data_busca']) || isset($_GET['categoria_busca'])) {
                     <option value="Reciclável">Reciclável</option>
                     <option value="Não Reciclável">Não Reciclável</option>
                     <option value="Óleo">Óleo</option>
-                    <!-- ... outras categorias ... -->
+                     <option value="Tampinhas plásticas">Tampinhas plásticas</option>
+                                <option value="Lacres de alumínio">Lacres de alumínio</option>
+                                <option value="Tecidos">Tecidos</option>
+                                <option value="Meias">Meias</option>
+                                <option value="Material de escrita">Material de escrita</option>
+                                <option value="Esponjas">Esponjas</option>
+                                <option value="Eletrônicos">Eletrônicos</option>
+                                <option value="Pilhas e baterias">Pilhas e baterias</option>
+                                <option value="Infectante">Infectante</option>
+                                <option value="Químicos">Químicos</option>
+                                <option value="Lâmpada fluorescente">Lâmpada fluorescente</option>
+                                <option value="Tonners de impressora">Tonners de impressora</option>
+                                <option value="Esmaltes">Esmaltes</option>
+                                <option value="Cosméticos">Cosméticos</option>
+                                <option value="Cartela de medicamentos">Cartela de medicamento</option>
+
+                    
                 </select>
             </div>
             <div class="col-md-4 d-flex align-items-end">
